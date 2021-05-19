@@ -1,0 +1,52 @@
+.card {
+    display: grid;
+    grid-area: card;
+    grid-column: span 1;
+    grid-template-areas: "card__title card__points"
+                         "card__subtitle card__changes";
+    align-items: center;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+
+.card__title {
+    grid-area: card__title;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+.card__points {
+    grid-area: card__points;
+    justify-self: end;
+    width: 26px;
+    height: 5px;
+    background: url(../../../src/img/points.png) no-repeat;
+}
+
+.card__subtitle {
+    grid-area: card__subtitle;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+.card__changes {
+    grid-area: card__changes;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card__changes-percents {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 20px;
+    color: #979797;
+
+}
+.card__changes-cursor {
+    width: 13px;
+    height: 14px;
+    margin-left: 9px;
+    background: url(../../../src/img/cursor.png) no-repeat center center;
+}

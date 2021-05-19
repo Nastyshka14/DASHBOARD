@@ -1,0 +1,31 @@
+.audience {
+    grid-area: audience;
+    display: flex;
+    flex-direction: column;
+
+    &__description {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom:24px;
+    }
+
+    &__data {
+        width: 169px;
+        height: 28px;
+        margin: 0 32px 0 169px;
+        background: url(../../../src/img/date.png) no-repeat center center;
+    }
+
+    &__check {
+        display: flex;;
+        width: 135px;
+        height: 16px;
+        background: url(../../img/check.png) no-repeat center center;
+    }
+
+    &__image-graphic {
+        width: 100%;
+        height: 141px;
+    }
+}

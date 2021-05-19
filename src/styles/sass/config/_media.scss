@@ -1,0 +1,77 @@
+// @media screen and (max-width: 1090px) {
+//     .app {
+//         padding: 0;
+//     }
+// }
+
+// @media screen and (max-width: 768px) {
+//     .container {
+//         display: grid;
+//         grid-template-rows: 1244px;
+//     }   
+//     .main {
+//         display: grid;
+
+//         grid-template-rows: 148px repeat(4, 1fr);
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-template-areas: "friends visitors "
+//                              "followers device"
+//                              "audience audience" 
+//                              "gender gender"
+//                              "geo geo";
+//     }
+
+// }
+
+// @media screen and (max-width: 568px) {
+//     .container {
+//         display: grid;
+//         grid-template-rows: 1604px;
+//     }   
+//     .main {
+//         display: grid;
+
+//         grid-template-rows: repeat(3, 148px) repeat(4, 1fr);
+//         grid-template-columns: 1fr;
+//         grid-template-areas: "friends"
+//                              "visitors"
+//                              "followers"
+//                              "audience"
+//                              "device" 
+//                              "gender"
+//                              "geo";
+//     }
+
+// }
+
+// @media screen and (max-width: 366px) {
+//     .container {
+//         display: grid;
+//         grid-template-columns: 98px 1fr;
+//         grid-template-rows: 880px;
+//         grid-template-areas: 'content content';
+//     }
+    
+//     .aside {
+//         display: none;
+        
+//     }
+//     .container {
+//         display: grid;
+//         grid-template-rows: 1604px;
+//     }   
+//     .main {
+//         display: grid;
+
+//         grid-template-rows: repeat(3, 148px) repeat(4, 1fr);
+//         grid-template-columns: 1fr;
+//         grid-template-areas: "card"
+//                              "card"
+//                              "card"
+//                              "audience"
+//                              "device" 
+//                              "gender"
+//                              "geo";
+//     }
+
+// }

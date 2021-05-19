@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/css/main.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="app">
+        <div class="container">
+            <nav class="nav">
+                <img class="nav__logo" alt="logo" src="src/img/logo.png">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\sprite.svg#home"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\sprite.svg#news"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\sprite.svg#friends"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\nav\sprite.svg#messages"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\sprite.svg#play"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\sprite.svg#statistic"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">  
+                                <svg class="nav__icon">
+                                    <use xlink:href="src\img\icons\sprite.svg#settings"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                <div class="aside__tumbler">tum</div>
+            </nav>
+
+            <div class="content">
+                <header class="header">
+                    <div class="header__search">
+                        <p class="header__search-title">Statistics</p>
+                        <form class="header__search-form">
+                            <input class="header__search-icon" type="image" src="src/img/search.png" alt="search">
+                            <input class="header__search-item" type="search" id="mySearch" name="q"
+                            placeholder="Search" required>
+                        </form>
+                        <div class="header__search-bell"></div>
+                    </div>
+                    <div class="header__user">
+                        <p class="header__user-name">Anya</p>
+                        <img class="header__user-photo" src="src/img/avatar.png" alt="avatar">
+                        <div class="header__user-list"></div>
+                    </div>
+                </header>
+                <main class="main">
+                    <div class="card section">
+                        <h3 class="card__title">Friends</h3>
+                        <div class="card__points"></div>
+                        <p class="card__sutitle">271 people</p>
+                        <div class="card__changes">
+                            <p class="card__changes-percents">+0,7%</p>
+                            <div class="card__changes-cursor"></div>
+                        </div>
+                    </div>
+                    <div class="card section">
+                        <h3 class="card__title">Unique visitors</h3>
+                        <div class="card__points"></div>
+                        <p class="card__sutitle">69 people</p>
+                        <div class="card__changes">
+                            <p class="card__changes-percents">-1,7%</p>
+                            <div class="card__changes-cursor"></div>
+                        </div>
+                    </div>
+                    <div class="card section">
+                        <h3 class="card__title">Followers</h3>
+                        <div class="card__points"></div>
+                        <p class="card__sutitle">288 people</p>
+                        <div class="card__changes">
+                            <p class="card__changes-percents">+1,0%</p>
+                            <div class="card__changes-cursor"></div>
+                        </div>
+                    </div>
+                    <div class="audience section">
+                        <div class="audience__description">
+                            <h3 class="audience__title">Audience reach</h3>
+                            <div class="audience__data"></div>
+                            <div class="audience__check"></div>
+                        </div>
+                        <div class="audience__image">
+                            <img class="audience__image-graphic" alt="graphic" src="src/img/graphic.png"></img>
+                        </div>
+                    </div>
+                    <div class="device section">
+                        <h3 class="device__title">Reach by device</h3>
+                        <img class="device__diagram" alt="diagram" src="src/img/diagram.png"></img> 
+                        <div class="device__descripion">
+                            <p class="device__square device__square--pink">Desktop</p>
+                            <p class="device__square device__square--purple">Mobile views</p>
+                        </div>
+                    </div>
+                    <div class="gender section">
+                        <h3 class="gender__title">Gender/Age</h3>
+                        <div class="gender__descripion">
+                            <p class="gender_square gender__square--pink">women</p>
+                            <p class="gender__square gender__square--purple">men</p>
+                        </div>
+                        <img class="gender__histogram" alt="histogram" src="src/img/histogram.png"></img> 
+                    </div>
+                    <div class="geo section">
+                        <h3 class="geo__title">Geo</h3>
+                        <p class="geo__variant geo__variant--active">Country</p>
+                        <p class="geo__variant">City</p>
+                        <img class="geo__linear" alt="linear diagram" src="src/img/countries.png"></img> 
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

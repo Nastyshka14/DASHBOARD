@@ -1,0 +1,13 @@
+.geo {
+    grid-area: geo;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 48px);
+    grid-template-rows: 30px 1fr;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+
+    &__linear {
+        width: 100%;
+        grid-column: span 3;
+    }
+}

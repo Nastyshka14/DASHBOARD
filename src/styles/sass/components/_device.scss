@@ -1,0 +1,17 @@
+.device {
+    grid-area: device;
+    display: grid;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 30px 1fr;
+
+    &__title {
+        grid-column: span 2;
+    }
+
+
+}
+
+
+

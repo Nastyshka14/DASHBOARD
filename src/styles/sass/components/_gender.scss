@@ -1,0 +1,10 @@
+.gender {
+    grid-area: gender;
+    display: grid;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
