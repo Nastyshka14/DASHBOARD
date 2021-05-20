@@ -5,73 +5,74 @@
     border: none;
     border-radius: 13px;
     background: #EFF3F9;
-}
 
-.header__search {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    &__search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.header__search-title {
-    padding-right: 45px;
-    font-family: Gilroy;
-    font-weight: bold;
-    font-size: 30px;
-    color: #4F4F4F;
-}
+    &__search-title {
+        padding-right: 45px;
+        font-family: Gilroy;
+        font-weight: bold;
+        font-size: 30px;
+        color: #4F4F4F;
+    }
 
-.header__search-form {
-    width: 153px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    margin-right: 24px;
-    background: #FDFDFF;
-    border: 1px solid #EBEBEB;
-    box-sizing: border-box;
-    border-radius: 8px;
-}
+    &__search-form {
+        width: 153px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        margin-right: 24px;
+        background: #FDFDFF;
+        border: 1px solid #EBEBEB;
+        border-radius: 8px;
+    }
 
-.header__search-icon {
-    width: 9px;
-    height: 8.21px;
-    margin-left: 14px;
-    margin-right: 11px;
-}
+    &__search-icon {
+        width: 9px;
+        height: 8.21px;
+        margin: 0 11px 0 14px;
+    }
 
-.header__search-item {
-    width: 115px;
-    font-family: Gilroy;
-    font-weight: 500;
-    font-size: 12px;
-    color: #979797;
-    border: none;
+    &__search-item {
+        width: 115px;
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 12px;
+        color: #979797;
+        border: none;
+    }
 
-}
+    &__search-bell {
+        width: 22px;
+        height: 22px;
+        background: url(../../../src/img/bell.png) no-repeat center center;
+    }
 
-.header__search-bell {
-    width: 22px;
-    height: 22px;
-    background: url(../../../src/img/bell.png) no-repeat center center;
-}
-.header__user {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header__user-name {
-    font-family: Gilroy;
-    font-weight: 600;
-    font-size: 20px;
-    color: #4F4F4F;
-}
+    &__user {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.header__user-photo {
-    margin: 0 9px 0 11px;
-}
-.header__user-list {
-    width: 8px;
-    height: 4px;
-    background: url(../../../src/img/list.png) no-repeat center center;
+    &__user-name {
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 20px;
+        color: #4F4F4F;
+    }
+
+    &__user-photo {
+        margin: 0 9px 0 11px;
+    }
+    
+    &__user-list {
+        width: 8px;
+        height: 4px;
+        background: url(../../../src/img/list.png) no-repeat center center;
+    }
+
 }

@@ -3,11 +3,59 @@
     display: grid;
     border: 1px solid #EBEBEB;
     border-radius: 13px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 153px 1fr;
+    grid-column-gap: 50px;
     grid-template-rows: 30px 1fr;
+    padding: 23px 24px 24px 0px;
+    background: #FDFDFF;
 
     &__title {
         grid-column: span 2;
+        margin-left: 24px;
+        font-family: Gilroy;
+        font-weight: bold;
+        font-size: 20px;
+        color: #4F4F4F;
+    }
+    
+    &__diagram {
+        display: grid;
+        top: 0;
+        left: 0;
+        padding-left: 0px;
+    }
+
+    &__descripion {
+        margin-top: 35px;
+    }
+
+    &__square {
+        position: relative;
+        margin-bottom: 11px;
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 12px;
+        color: #4F4F4F;
+
+        &--pink:before {
+            top: 0;
+            left: -23px;
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: url(../../img/pink-item.png);
+        }
+
+        &--purple:before {
+            top: 0;
+            left: -23px;
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: url(../../img/purple-item.png);
+        }
     }
 
 

@@ -22,27 +22,6 @@
     border-radius: 14px;
 }
 
-.nav {
-//     display: grid;
-    grid-area: nav;
-//     grid-template-rows: 24px 430px 30px;
-//     grid-gap: 153px;
-//     grid-template-areas: "aside__logo"
-//                          "aside__nav-list"
-//                          "aside__tumbler";
-//     margin: 53px 0 48px;
-}
-
-// .aside__logo {
-//     grid-area: aside__logo;
-//     background: rgb(165, 42, 42);
-// }
-
-// .aside__tumbler {
-//     grid-area: aside__tumbler;
-//     background: rgb(65, 24, 24);
-// }
-
 .content {
     display: grid;
     grid-area: content;
@@ -52,8 +31,6 @@
     grid-template-areas: "header"
                          "main"; 
     background: #EFF3F9;
-    
-
 }
 
 .main {

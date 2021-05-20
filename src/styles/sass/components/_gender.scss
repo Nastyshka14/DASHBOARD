@@ -6,5 +6,42 @@
     grid-template-rows: 30px 1fr;
     grid-template-columns: repeat(2, 1fr);
 
+    &__title {
+        margin-bottom: 21px;
+        font-family: Gilroy;
+        font-weight: bold;
+        font-size: 20px;
+        color: #4F4F4F;
+    }
+
+    &__description {
+        position: relative;
+        display: grid; 
+        grid-template-rows: 30px;  }
+
+    &__square--pink:before {
+        top: 0;
+        left: 1px;
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        background: url(../../img/pink-item.png);
+    }
+
+    &__square--purple:before {
+        top: 0;
+        left: 1px;
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        background: url(../../img/purple-item.png);
+    }
+
+    &__histogram {
+        display: grid;
+        grid-template-columns: span 2;
+    }
 }
 
