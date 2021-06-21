@@ -7,12 +7,17 @@
 
     &__logo {
         width: 42px;
+        height: 24px;
     }
 
     &__list {
         display: grid;
         grid-template-rows: repeat(7, 1fr);
     }
+
+    &__item:hover {
+            fill: #7F7FD5;
+        }
 
     &__icon {
         width: 25px;
